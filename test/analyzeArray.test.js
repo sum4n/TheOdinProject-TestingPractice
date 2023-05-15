@@ -1,4 +1,4 @@
-import analyzeArray from "./analyzeArray";
+import analyzeArray from "../code/analyzeArray";
 
 test("object assignment 1", () => {
   const obj = analyzeArray([1, 8, 3, 4, 2, 6]);

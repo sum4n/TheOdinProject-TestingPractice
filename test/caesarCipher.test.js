@@ -1,4 +1,4 @@
-import caesarCipher from "./caesarCipher";
+import caesarCipher from "../code/caesarCipher";
 
 test("hello becomes ifmmp", () => {
   expect(caesarCipher("hello", 1)).toMatch("ifmmp");

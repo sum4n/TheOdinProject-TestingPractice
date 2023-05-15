@@ -1,4 +1,4 @@
-import calculator from "./calculator";
+import calculator from "../code/calculator";
 
 test("2 + 3 equals 5", () => {
   expect(calculator.add(3, 2)).toBe(5);

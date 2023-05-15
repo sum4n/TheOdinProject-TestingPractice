@@ -1,4 +1,4 @@
-import capitalize from "./capitalize";
+import capitalize from "../code/capitalize";
 
 test("hello to become Hello", () => {
   expect(capitalize("hello")).toBe("Hello");
